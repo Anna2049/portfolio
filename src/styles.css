@@ -69,7 +69,6 @@
   color: var(--primary-color);
   text-align: center;
 }
-
 body,
 .navbar {
   font-family: "Roboto", sans-serif;
@@ -81,21 +80,13 @@ body,
   padding: 1vw;
 }
 .photo-frame {
+  text-align: center;
   border: var(--primary-border);
   border-radius: 50%;
   max-width: 400px;
   margin: 0 auto;
-  /*box-shadow: var(--box-shadow);*/
+  padding: 3em 0;
 }
-/*
-
-#background {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  z-index: -1;
-}
-*/
 #scroll-icon {
   text-align: center;
   margin-bottom: 25px;
@@ -125,16 +116,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/*
-p {
-  background: var(--secondary-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-}
-*/
-
 .email-link {
   color: var(--content-color);
   text-decoration: none;
@@ -180,39 +161,6 @@ p {
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
 }
-/*
-
-.project > img {
-  width: 25vw;
-  filter: grayscale(100%);
-  transition: 0.3s;
-  border: var(--primary-border);
-}
-
-.project > img:hover {
-  filter: grayscale(0%);
-  width: 45vw;
-  transform: scale(1.1);
-  margin-left: 0 -0.75vw;
-}
-
-li:hover {
-  width: 45vw;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-li {
-  margin: 0 1.5vw;
-}
-li > img {
-  border: var(--primary-border);
-}
-*/
 .progress > .html {
   background-color: #563d7c;
 }
